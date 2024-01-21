@@ -1,0 +1,25 @@
+p{
+    font-family: Arial;
+    color: black;
+    font-size: 30px;
+}
+input{
+    display: block;
+    margin-top: 5px;
+    padding: 8px 8px;
+    font-size: 12px;
+    width: 300px;
+    background-color: rgb(247, 241, 241);
+    border: none;
+}
+button{
+    margin-top: 30px;
+    padding: 13px 20px;
+    border: none;
+    margin-right: 8px;
+    cursor: pointer;
+}
+.request{
+    background-color: black;
+    color: white;
+}

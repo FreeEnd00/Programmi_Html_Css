@@ -1,0 +1,44 @@
+p{
+    font-family: Roboto;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.title{
+    font-size: 18px;
+    font-weight: bold;
+    width: 30%;
+    line-height: 124%;
+}
+.visual{
+    font-size: 14px;
+    margin-top: 6px;
+    color: #606060;
+}
+.youtuber{
+    font-size: 14px;
+    margin-top: 16px;
+    color: #606060;
+}
+.description{
+    font-size: 14px;
+    margin-top: 16px;
+    width: 30%;
+    line-height: 124%;
+    color: #606060;
+
+}
+.shop{
+    font-size: 14px;
+    text-align: center;
+    margin-top: 100px;
+    background-color: #e34140;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+span{
+    cursor: pointer;
+}
+span:hover{
+    text-decoration: underline;
+}

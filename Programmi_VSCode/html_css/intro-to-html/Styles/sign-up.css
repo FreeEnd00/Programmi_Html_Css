@@ -1,0 +1,22 @@
+input{
+    padding: 8px 8px;
+    border-radius: 8px;
+    border-color: rgb(221, 216, 216);
+    width: 120px;
+    border-width: 1px;
+}
+.email{
+    display: block;
+    margin-top: 10px;
+    width: 265px;
+}
+.signup {
+    padding: 11px 117px;
+    margin-top: 10px;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(27, 107, 226);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}

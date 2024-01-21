@@ -1,0 +1,69 @@
+.tahoma{
+    font-family:Tahoma;
+    font-weight: bold;
+}
+.deal{
+    font-family: Arial;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.sales{
+    font-family: Arial;
+    font-style: italic;
+    font-size: 11px;
+    color: rgb(255, 17, 0);
+    margin-top: 5px;
+}
+.title{
+    font-family: Verdana;
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+.undertitle{
+    font-family: Verdana;
+    font-size: 13px;
+    color: gray;
+    margin-top: 2px;
+}
+.description{
+    font-family: Verdana;
+    font-size: 13px;
+    width: 27%;
+}
+button{
+    background-color: rgb(37, 141, 37);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 13px;
+    cursor: pointer;
+    transition: opacity 0.15s;
+}
+button:hover{
+    opacity: 0.7;
+}
+button:active{
+    opacity: 0.5;
+}
+.shopping{
+    font-family: Arial;
+    font-weight: bold;
+    text-align: center;
+    font-size: 17px;
+    margin-bottom: 0;
+}
+.apple{
+    font-family: Arial;
+    text-align: center;
+    font-size: 10px;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+.link{
+    font-family: Arial;
+    text-align: center;
+    color: rgb(0, 81, 255);
+    font-size: 10px;
+    margin-top: 10px;
+}

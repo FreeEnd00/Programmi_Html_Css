@@ -1,0 +1,51 @@
+.pages{
+    padding: 8px 5px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+a{
+    margin-left: 3px;
+    margin-right: 3px;
+}
+.stc{
+    background-color: rgb(20, 136, 20);
+    padding: 5px 5px;
+    margin-top: 35px;
+    margin-bottom: 30px;
+    color: white;
+    border: none;
+    transition: padding 1s, margin 1s;
+}
+.stc:hover{
+    padding: 10px 20px;
+    margin-bottom: 20px;
+}
+.shd{
+    background-color: rgb(20, 136, 20);
+    margin-top: 60px;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    box-shadow: 3px 3px 3px rgba(0,0,0,0.4);
+}
+.shd:active{
+    box-shadow: none;
+}
+.b123{
+    color: white;
+    background-color: rgb(20, 136, 20);
+    border: none;
+    padding-top: 5px ;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 8px;
+    margin-right: 8px;
+    transition: padding 0.15s, margin 0.15s;
+}
+.b123:hover{
+    padding-left: 28px;
+    padding-right: 28px;
+    margin-left: 0px;
+    margin-right: 0px;
+}

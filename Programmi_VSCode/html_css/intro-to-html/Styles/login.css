@@ -1,0 +1,12 @@
+input{
+    display: block;
+    margin-top: 3px;
+}
+p{
+    display: inline-block;
+    width: 200px;
+    vertical-align: middle;
+}
+button{
+    vertical-align: middle;
+}

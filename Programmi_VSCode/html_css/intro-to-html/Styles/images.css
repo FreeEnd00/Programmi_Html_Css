@@ -1,0 +1,18 @@
+img{
+    width: 200px;
+    margin-right: 50px;
+    margin-top: 50px;
+    margin-left: 10px;
+}
+.esa{
+    border-radius: 50px;
+}
+.esb{
+    width: 200px;
+    height: 200px;
+    object-position: center;
+}
+.esc{
+    border-radius: 50%;
+    height: 200px;
+}

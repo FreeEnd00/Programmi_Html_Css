@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        p{
+            font-family: Roboto, Arial;
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+        .thumbnail{
+            width: 100%;
+        }
+        .search-bar{
+            border-width: 1px;
+            border-color: rgb(241, 231, 231);
+            padding-top: 10px;
+            padding-bottom: 10px;
+            font-size: 15px;
+            display: block;
+        }
+        p{
+            font-family: Roboto;
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+        .video-title{
+            font-weight: 500;
+            font-size: 14.5px;
+            width: 210px;
+            display: inline-block;
+            vertical-align: middle;
+            margin-top: 10px;
+            line-height: 22px;
+            margin-bottom: 10px;
+      
+        }
+        .channel,.visual{
+            font-size: 12px;
+            margin-top: 3px;
+            color: rgb(96, 96, 96);
+        }
+        .video-info-grid{
+            display: grid;
+            grid-template-columns: 50px 1fr;
+        }
+        .video-icon{
+            vertical-align: top;  
+        }
+        .icon{
+            border-radius: 100px;
+            width: 37px;
+            margin-top: 10px;
+            margin-right: 10px;
+        }
+        .channel{
+            margin-bottom: 4px;
+        }
+        .video-grid{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            column-gap: 16px;
+            row-gap: 40px;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube.come Clone</title>
+</head>
+<body>
+ <input class="search-bar" type="text" placeholder="Search">
+   <div class="video-grid">
+    <div class="video-preview">
+        <div class="video-img">
+            <img class="thumbnail" src="thumbnails/thumbnail-1.webp" alt="thumbnail-1">
+        </div>
+        <div class="video-info-grid">
+            <div class="video-icon">
+                <img class="icon" src="channel-icons/channel-1.jpeg" alt="channel1">
+            </div>
+            <div class="video-texts">
+                <div class="title-name">
+                    <p class="video-title">
+                        Talking Tech and AI with Google CEO Sundar Pichai!</p>
+                </div>
+                <div class="channel-name">
+                    <p class="channel">
+                        Marques Brownlee
+                        </p>    
+                </div>
+                <div class="view-old">  
+                    <p class="visual">
+                        3.4M views 	&#183; 6 months ago
+                        </p>
+                </div>
+            </div>
+        </div>   
+    </div>
+    <div class="video-preview">
+        <div class="video-img">
+            <img class="thumbnail" src="thumbnails/thumbnail-2.webp" alt="thumbnail-2">
+        </div>
+        <div class="video-info-grid">
+            <div class="video-icon">
+                <img class="icon" src="channel-icons/channel-2.jpeg" alt="channel2">
+            </div>
+            <div class="video-texts">
+                <div class="title-name">
+                    <p class="video-title">
+                        Try Not To Laugh Challenge #9</p>
+                </div>
+                <div class="channel-name">
+                    <p class="channel">
+                        Markiplier
+                        </p>    
+                </div>
+                <div class="view-old">  
+                    <p class="visual">
+                        19M views &#183; 4 years ago
+                        </p>
+                </div>
+            </div>
+        </div>   
+    </div>
+        <div class="video-preview">
+            <div class="video-img">
+                <img class="thumbnail" src="thumbnails/thumbnail-3.webp" alt="thumbnail-3">
+            </div>
+            <div class="video-info-grid">
+                <div class="video-icon">
+                    <img class="icon" src="channel-icons/channel-3.jpeg" alt="channel3">
+                </div>
+                <div class="video-texts">
+                    <div class="title-name">
+                        <p class="video-title">    
+                            Crazy Tik Toks Taken Moments Before DISASTER</p>
+                    </div>
+                    <div class="channel-name">
+                        <p class="channel">
+                            SSSniperWolf
+                            </p>    
+                    </div>
+                    <div class="view-old">  
+                        <p class="visual">
+                            12M views &#183; 1 year ago
+                            </p>
+                    </div>
+                </div>
+            </div>   
+        </div>
+        <div class="video-preview">
+            <div class="video-img">
+                <img class="thumbnail" src="thumbnails/thumbnail-4.webp" alt="thumbnail-4">
+            </div>
+            <div class="video-info-grid">
+                <div class="video-icon">
+                    <img class="icon" src="channel-icons/channel-4.jpeg" alt="channel4">
+                </div>
+                <div class="video-texts">
+                    <div class="title-name">
+                        <p class="video-title">
+                            The Simplest Math Problem No One Can Solve - Collatz Conjecture</p>
+                    </div>
+                    <div class="channel-name">
+                        <p class="channel">
+                            Veritasium
+                            </p>    
+                    </div>
+                    <div class="view-old">  
+                        <p class="visual">
+                            18M views &#183; 4 months ago
+                            </p>
+                    </div>
+                </div>
+            </div>   
+        </div>
+        <div class="video-preview">
+            <div class="video-img">
+                <img class="thumbnail" src="thumbnails/thumbnail-5.webp" alt="thumbnail-5">
+            </div>
+            <div class="video-info-grid">
+                <div class="video-icon">
+                    <img class="icon" src="channel-icons/channel-5.jpeg" alt="channel5">
+                </div>
+                <div class="video-texts">
+                    <div class="title-name">
+                        <p class="video-title">
+                            Kadane's Algorithm to Maximum Sum Subarray Problem</p>
+                        </p>
+                    </div>
+                    <div class="channel-name">
+                        <p class="channel">
+                            CS Dojo
+                            </p>    
+                    </div>
+                    <div class="view-old">  
+                        <p class="visual">
+                            519K views &#183; 5 years ago
+                            </p>
+                    </div>
+                </div>
+            </div>   
+        </div>
+            <div class="video-preview">
+                <div class="video-img">
+                    <img class="thumbnail" src="thumbnails/thumbnail-6.webp" alt="thumbnail-6">
+                </div>
+                <div class="video-info-grid">
+                    <div class="video-icon">
+                        <img class="icon" src="channel-icons/channel-6.jpeg" alt="channel6">
+                    </div>
+                    <div class="video-texts">
+                        <div class="title-name">
+                            <p class="video-title">    
+                                Anything You Can Fit In The Circle I&apos;ll Pay For</p>
+                        </div>
+                        <div class="channel-name">
+                            <p class="channel">
+                                MrBeast
+                                </p>    
+                        </div>
+                        <div class="view-old">  
+                            <p class="visual">
+                                141M views &#183; 1 year ago
+                                </p>
+                        </div>
+                    </div>
+                </div>   
+            </div>
+            <div class="video-preview">
+                <div class="video-img">
+                    <img class="thumbnail" src="thumbnails/thumbnail-7.webp" alt="thumbnail-7">
+                </div>
+                <div class="video-info-grid">
+                    <div class="video-icon">
+                        <img class="icon" src="channel-icons/channel-7.jpeg" alt="channel7">
+                    </div>
+                    <div class="video-texts">
+                        <div class="title-name">
+                            <p class="video-title">   
+                                Why Planes Don't Fly Over Tibet </p>
+                            </p>
+                        </div>
+                        <div class="channel-name">
+                            <p class="channel">
+                                RealLifeLore
+                                </p>    
+                        </div>
+                        <div class="view-old">  
+                            <p class="visual">
+                                6.6M views &#183; 1 year ago
+                                </p>
+                        </div>
+                    </div>
+                </div>   
+            </div>
+                <div class="video-preview">
+                    <div class="video-img">
+                        <img class="thumbnail" src="thumbnails/thumbnail-8.webp" alt="thumbnail-8">
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="video-icon">
+                            <img class="icon" src="channel-icons/channel-8.jpeg" alt="channel8">
+                        </div>
+                        <div class="video-texts">
+                            <div class="title-name">
+                                <p class="video-title">                                      
+                                    Inside The World's Biggest Passenger Plane</p>
+                            </div>
+                            <div class="channel-name">
+                                <p class="channel">
+                                    Tech Vision
+                                    </p>    
+                            </div>
+                            <div class="view-old">  
+                                <p class="visual">
+                                    3.7M views &#183; 10 months ago
+                                    </p>
+                            </div>
+                        </div>
+                    </div>   
+                </div>
+   </div> 
+   
+    </body>
+</html>

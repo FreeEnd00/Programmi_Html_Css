@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        p{
+            font-family: Arial, Helvetica, sans-serif;
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+        .picture{
+            width: 250px;
+        }
+        .friend-icon{
+            width: 35px;
+            vertical-align: middle;
+            border-radius: 10px;
+            margin-right: 5px;
+        }
+        .mutual-friends{
+            vertical-align: middle;
+            color: rgb(97, 96, 96);
+            font-size: 20px;
+        }
+        .name{
+            font-weight: 700;
+            font-size: 20px;
+            margin-top: 10px;
+            margin-bottom: 4px;
+        }
+        button{
+            margin-top: 10px;
+            padding: 13px 24px;
+            background-color: rgb(0, 81, 255);
+            border: none;
+            font-size: 20px;
+            font-weight: 700;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .name,.friends-grid,.button{
+            margin-left: 10px;
+        }
+        .profile{
+            padding-bottom: 10px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+        }
+        .friends-grid{
+            display: grid;
+            grid-template-columns: 50px 1fr;
+        }
+        .container-grid{
+            display: grid;
+            grid-template-columns: 250px 250px 250px;
+            column-gap: 20px;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profiles</title>
+</head>
+<body>
+    <div class="container-grid">
+        <div class="profile">
+            <div class="profile-picture">
+                <img class="picture" src="images/moon.jpg" alt="moon">
+            </div>
+            <div class="profile-name">
+                <p class="name">Oliver</p>
+            </div>
+            <div class="friends-grid">
+                <div class="friend-picture">
+                    <img class="friend-icon" src="images/cat.jpg" alt="cat">
+                </div>
+                <div class="mutual">
+                    <p class="mutual-friends">2 mutual friends</p>
+                </div>
+            </div>
+            <div class="button">
+                <button>Add Friend</button>
+            </div>
+        </div>
+        <div class="profile">
+            <div class="profile-picture">
+                <img class="picture" src="images/flowers.jpg" alt="Flowers">
+            </div>
+            <div class="profile-name">
+                <p class="name">Mimi</p>
+            </div>
+            <div class="friends-grid">
+                <div class="friend-picture">
+                    <img class="friend-icon" src="images/cat.jpg" alt="cat">
+                </div>
+                <div class="mutual">
+                    <p class="mutual-friends">3 mutual friends</p>
+                </div>
+            </div>
+            <div class="button">
+                <button>Add Friend</button>
+            </div>
+        </div>
+        <div class="profile">
+            <div class="profile-picture">
+                <img class="picture" src="images/tiger.jpg" alt="Flowers">
+            </div>
+            <div class="profile-name">
+                <p class="name">Rex</p>
+            </div>
+            <div class="friends-grid">
+                <div class="friend-picture">
+                    <img class="friend-icon" src="images/cat.jpg" alt="cat">
+                </div>
+                <div class="mutual">
+                    <p class="mutual-friends">4 mutual friends</p>
+                </div>
+            </div>
+            <div class="button">
+                <button>Add Friend</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

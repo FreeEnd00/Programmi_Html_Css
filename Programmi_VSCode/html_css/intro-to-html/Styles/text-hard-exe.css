@@ -1,0 +1,80 @@
+p{
+    font-family: Arial;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.new{
+    text-align: center;
+    color: rgb(252, 33, 33);
+    font-size: 14px;
+}
+.mac-type{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 8px;
+    font-size: 22px;
+}
+.info{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 8px;
+    font-size: 35px;
+}
+.price{
+    text-align: center;
+    margin-top: 8px;
+    font-size: 14px;
+}
+.buy{
+    margin-top: 8px;
+    font-size: 14px;
+    background-color: rgb(9, 114, 235);
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    color: white;
+    border-radius: 20px;
+}
+.center{
+    text-align: center;
+    margin-top: 8px;
+}
+.money{
+    margin-top: 10px;
+    font-size: 30px;
+}
+.currency{
+    font-size: 15px;
+    color: gray;
+}
+.positive{
+    color: rgb(68, 189, 68);
+    margin-top: 5px;
+}
+.hours{
+    font-size: 15px;
+    margin-top: 5px;
+    color: gray;
+    margin-bottom: 10px;
+}
+.negative {
+    color: rgb(252, 88, 77);
+}
+.mail{
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.tag{
+    color: gray;
+    font-weight: lighter;
+}
+.text{
+    width: 60%;
+    margin-bottom:20px;
+}
+.chp{
+    color: rgb(51, 190, 236);
+}
