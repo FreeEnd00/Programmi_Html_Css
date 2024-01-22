@@ -7,73 +7,23 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <style>
-        p{
-            font-family: Roboto, Arial;
-            margin-top: 0;
-            margin-bottom: 0;
-        }
-        .thumbnail{
-            width: 100%;
-        }
-        .search-bar{
-            border-width: 1px;
-            border-color: rgb(241, 231, 231);
-            padding-top: 10px;
-            padding-bottom: 10px;
-            font-size: 15px;
-            display: block;
-        }
-        p{
-            font-family: Roboto;
-            margin-top: 0;
-            margin-bottom: 0;
-        }
-        .video-title{
-            font-weight: 500;
-            font-size: 14.5px;
-            width: 210px;
-            display: inline-block;
-            vertical-align: middle;
-            margin-top: 10px;
-            line-height: 22px;
-            margin-bottom: 10px;
-      
-        }
-        .channel,.visual{
-            font-size: 12px;
-            margin-top: 3px;
-            color: rgb(96, 96, 96);
-        }
-        .video-info-grid{
-            display: grid;
-            grid-template-columns: 50px 1fr;
-        }
-        .video-icon{
-            vertical-align: top;  
-        }
-        .icon{
-            border-radius: 100px;
-            width: 37px;
-            margin-top: 10px;
-            margin-right: 10px;
-        }
-        .channel{
-            margin-bottom: 4px;
-        }
-        .video-grid{
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr 1fr;
-            column-gap: 16px;
-            row-gap: 40px;
-        }
-    </style>
+    <link rel="stylesheet" href="yt_styles/video.css">
+    <link rel="stylesheet" href="yt_styles/header.css">
+    <link rel="stylesheet" href="yt_styles/general.css">
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Youtube.come Clone</title>
 </head>
 <body>
- <input class="search-bar" type="text" placeholder="Search">
+    <div class="header">
+        <div class="left-section">
+            left section
+        </div>
+        <div class="middle-section">
+            <input class="search-bar" type="text" placeholder="Search">
+        </div>
+        <div class="right-section">
+               right section</div>
+    </div>
    <div class="video-grid">
     <div class="video-preview">
         <div class="video-img">
