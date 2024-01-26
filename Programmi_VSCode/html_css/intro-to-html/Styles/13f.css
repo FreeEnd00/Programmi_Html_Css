@@ -1,0 +1,47 @@
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+.profile-section{
+    display: flex;
+    width: 400px;
+}
+img{
+    height: 45px;
+    border-radius: 40px;
+    margin-right: 10px;
+}
+.tag{
+    margin-bottom: 5px;
+}
+span{
+    color: rgb(173, 172, 172);
+}
+.link-section{
+    margin-top: 10px;
+    margin-left: 50px;
+    padding-right: 20px;
+    width: 320px;
+    display: flex;
+    align-items: center;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 20px;
+    border-color: rgb(214, 213, 213);
+}
+.gray-box{
+    width: 160px;
+    height: 85px;
+    background-color: rgb(219, 216, 216);
+    margin-right: 13px;
+    border-top-left-radius: 18px;
+    border-bottom-left-radius: 18px;
+}
+.site{
+    margin-top: 15px;
+    margin-bottom: 4px;
+    color: rgb(134, 134, 134);
+}
+.description{
+    margin-bottom: 10px;
+}
