@@ -1,0 +1,17 @@
+.sidebar{
+    position: fixed;
+    background-color: white;
+    bottom: 0;
+    left: 0;
+    top: 50px;
+    width: 63px;
+}
+.sidebar-icon{
+    width: 25px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.sidebar-text{
+    padding-left: 20px;
+    font-size: 10px;
+}
