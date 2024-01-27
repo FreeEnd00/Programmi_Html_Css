@@ -1,0 +1,17 @@
+.container{
+    display: flex;
+}
+.box-one{
+    background-color: lightpink;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+}
+.box-two{
+    background-color: lightblue;
+    width: 200px;
+}
+p{
+    color: white;
+    background-color: black;
+}
