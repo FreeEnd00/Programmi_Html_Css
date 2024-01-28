@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .container{
+            position: relative;
+            width: 300px;
+            margin-left: 50%;
+            margin-top: 25%;
+        }
+        .t-shirt{
+            width: 300px;
+        }
+        .price-off{
+            position: absolute;
+            top: 10px; right: 0px;
+            background-color: black;
+            color: white;
+            padding: 5px 10px;
+            font-family: Arial;
+            font-size: 12px;
+        }
+        .button-box{
+            position: absolute;
+            bottom: 0;
+            width: 300px;
+            height: 80px;
+            background-color: rgba(250, 244, 244, 0.534);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        button{
+            padding: 5px 10px;
+            border-style: solid;
+            border-width: 1px;
+            font-family: Arial;
+            background-color: white;
+            font-size: 13px;
+            border-radius: 2px;
+            cursor: pointer;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>T-shirt online shop</title>
+</head>
+<body>
+    <div class="container">
+        <img class="t-shirt" src="images/t-shirt.jpg" alt="">
+        <div class="price-off">20% OFF</div>
+        <div class="button-box">
+            <button>Add to Cart</button>
+        </div>
+    </div>
+</body>
+</html>

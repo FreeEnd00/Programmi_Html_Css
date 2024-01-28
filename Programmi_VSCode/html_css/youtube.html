@@ -22,55 +22,72 @@
         </div>
         <div class="middle-section">
             <input class="search-bar" type="text" placeholder="Search">
-            <button class="search-button"><img class="search-icon" src="yt_icons/search.svg" alt=""></button>
-            <button class="voice-button"><img class="voice" src="yt_icons/voice-search-icon.svg" alt=""></button>
+            <button class="search-button"><img class="search-icon" src="yt_icons/search.svg" alt="">
+                <div class="tooltip">Search</div></button>
+            <button class="voice-button"><img class="voice" src="yt_icons/voice-search-icon.svg" alt="">
+                <div class="tooltip">Search with your voice</div></button></button>
         </div>
         <div class="right-section">
-            <img class="upload" src="yt_icons/upload.svg" alt="">
-            <img class="yt-app" src="yt_icons/youtube-apps.svg" alt="">
-            <img class="notifications" src="yt_icons/notifications.svg" alt="">
-            <img class="owner-channel" src="channel-icons/my-channel.jpeg" alt="">
+            <div class="upload-container">
+                <img class="upload" src="yt_icons/upload.svg" alt="">
+                <div class="tooltip">Create</div>
+            </div>
+            <div class="yt-app-container">
+                <img class="yt-app" src="yt_icons/youtube-apps.svg" alt="">
+                <div class="tooltip">YouTube apps</div>
+            </div>
+            <div class="notifications-container">
+                <img class="notifications" src="yt_icons/notifications.svg" alt="">
+                <div class="notifications-number">3</div>
+                <div class="tooltip">Notifications</div>
+            </div> 
+            <img class="owner-channel" src="channel-icons/my-channel.jpeg" alt="">           
         </div>
     </div>
     <div class="sidebar">
         <div class="sidebar-link">
-            <img class="sidebar-icon" src="yt_icons/home.svg" alt="">
-            <p class="sidebar-text">Home</p>
+            <img src="yt_icons/home.svg" alt="Home">
+            <div>Home</div>
         </div>
         <div class="sidebar-link">
-            <img class="sidebar-icon" src="yt_icons/explore.svg" alt="">
-            <p class="sidebar-text">Explore</p>
+            <img src="yt_icons/explore.svg" alt="Explore">
+            <div>Explore</div>
         </div>
         <div class="sidebar-link">
-            <img class="sidebar-icon" src="yt_icons/subscriptions.svg" alt="">
-            <p class="sidebar-text">Subscriptions</p>
+            <img src="yt_icons/subscriptions.svg" alt="Subscriptions">
+            <div>Subscriptions</div>
         </div>
         <div class="sidebar-link">
-            <img class="sidebar-icon" src="yt_icons/originals.svg" alt="">
-            <p class="sidebar-text">Originals</p>
+            <img src="yt_icons/originals.svg" alt="Originals">
+            <div>Originals</div>
         </div>
         <div class="sidebar-link">
-            <img class="sidebar-icon" src="yt_icons/youtube-music.svg" alt="">
-            <p class="sidebar-text">YouTube Music</p>
+            <img src="yt_icons/youtube-music.svg" alt="YouTube Music">
+            <div>YouTube Music</div>
         </div>
         <div class="sidebar-link">
-            <img class="sidebar-icon" src="yt_icons/library.svg" alt="">
-            <p class="sidebar-text">Library</p>
+            <img src="yt_icons/library.svg" alt="Library">
+            <div>Library</div>
         </div>
     </div>
    <div class="video-grid">
     <div class="video-preview">
         <div class="video-img">
-            <img class="thumbnail" src="thumbnails/thumbnail-1.webp" alt="thumbnail-1">
+            <a href="https://www.youtube.com/watch?v=n2RNcPRtAiY">
+                <img class="thumbnail" src="thumbnails/thumbnail-1.webp" alt="thumbnail-1">
+            </a>
+            <div class="video-time">14:20</div>
         </div>
         <div class="video-info-grid">
             <div class="video-icon">
-                <img class="icon" src="channel-icons/channel-1.jpeg" alt="channel1">
+                <a href="https://www.youtube.com/c/mkbhd">
+                    <img class="icon" src="channel-icons/channel-1.jpeg" alt="channel1">
+                </a> 
             </div>
             <div class="video-texts">
                 <div class="title-name">
-                    <p class="video-title">
-                        Talking Tech and AI with Google CEO Sundar Pichai!</p>
+                    <a  class="video-title" href="https://www.youtube.com/watch?v=n2RNcPRtAiY">
+                        Talking Tech and AI with Google CEO Sundar Pichai!</a>
                 </div>
                 <div class="channel-name">
                     <p class="channel">
@@ -87,16 +104,21 @@
     </div>
     <div class="video-preview">
         <div class="video-img">
-            <img class="thumbnail" src="thumbnails/thumbnail-2.webp" alt="thumbnail-2">
+            <a href="https://www.youtube.com/watch?v=mP0RAo9SKZk">
+                <img class="thumbnail" src="thumbnails/thumbnail-2.webp" alt="thumbnail-2">
+            </a>
+            <div class="video-time">8:22</div>
         </div>
         <div class="video-info-grid">
             <div class="video-icon">
-                <img class="icon" src="channel-icons/channel-2.jpeg" alt="channel2">
+                <a href="https://www.youtube.com/c/markiplier">
+                    <img class="icon" src="channel-icons/channel-2.jpeg" alt="channel2">
+                </a> 
             </div>
             <div class="video-texts">
                 <div class="title-name">
-                    <p class="video-title">
-                        Try Not To Laugh Challenge #9</p>
+                    <a class="video-title" href="https://www.youtube.com/watch?v=mP0RAo9SKZk">
+                        Try Not To Laugh Challenge #9</a>
                 </div>
                 <div class="channel-name">
                     <p class="channel">
@@ -113,16 +135,21 @@
     </div>
         <div class="video-preview">
             <div class="video-img">
-                <img class="thumbnail" src="thumbnails/thumbnail-3.webp" alt="thumbnail-3">
+                <a href="https://www.youtube.com/watch?v=FgjPQQeTh1w">
+                    <img class="thumbnail" src="thumbnails/thumbnail-3.webp" alt="thumbnail-3">
+                </a>
+                <div class="video-time">9:13</div>
             </div>
             <div class="video-info-grid">
                 <div class="video-icon">
-                    <img class="icon" src="channel-icons/channel-3.jpeg" alt="channel3">
+                    <a href="https://www.youtube.com/user/SSSniperWolf">
+                        <img class="icon" src="channel-icons/channel-3.jpeg" alt="channel3">
+                    </a>
                 </div>
                 <div class="video-texts">
                     <div class="title-name">
-                        <p class="video-title">    
-                            Crazy Tik Toks Taken Moments Before DISASTER</p>
+                        <a class="video-title" href="https://www.youtube.com/watch?v=FgjPQQeTh1w">    
+                            Crazy Tik Toks Taken Moments Before DISASTER</a>
                     </div>
                     <div class="channel-name">
                         <p class="channel">
@@ -139,16 +166,31 @@
         </div>
         <div class="video-preview">
             <div class="video-img">
-                <img class="thumbnail" src="thumbnails/thumbnail-4.webp" alt="thumbnail-4">
+                <a href="https://www.youtube.com/watch?v=094y1Z2wpJg">
+                    <img class="thumbnail" src="thumbnails/thumbnail-4.webp" alt="thumbnail-4">
+                </a>
+                <div class="video-time">22:09</div>
             </div>
             <div class="video-info-grid">
                 <div class="video-icon">
-                    <img class="icon" src="channel-icons/channel-4.jpeg" alt="channel4">
+                    <div class="icon-container">
+                        <a href="https://www.youtube.com/c/veritasium">
+                            <img class="icon" src="channel-icons/channel-4.jpeg" alt="channel4">
+                        </a>   
+                        <div class="channel-tooltip">
+                            <img class="icon-tooltip" src="channel-icons/channel-4.jpeg" alt="channel4">
+                            <div>
+                                <p class="channel-tool-name"><strong>Veritasium</strong></p>
+                                <p class="channel-subs">14,6M subscribers</p>
+                            </div>
+                        </div>            
+                    </div>
+                   
                 </div>
                 <div class="video-texts">
                     <div class="title-name">
-                        <p class="video-title">
-                            The Simplest Math Problem No One Can Solve - Collatz Conjecture</p>
+                        <a class="video-title" href="https://www.youtube.com/watch?v=094y1Z2wpJg">
+                            The Simplest Math Problem No One Can Solve - Collatz Conjecture</a>
                     </div>
                     <div class="channel-name">
                         <p class="channel">
@@ -165,16 +207,28 @@
         </div>
         <div class="video-preview">
             <div class="video-img">
-                <img class="thumbnail" src="thumbnails/thumbnail-5.webp" alt="thumbnail-5">
+                <a href="https://www.youtube.com/watch?v=86CQq3pKSUw">
+                    <img class="thumbnail" src="thumbnails/thumbnail-5.webp" alt="thumbnail-5">
+                </a>
+                <div class="video-time">11:17</div>
             </div>
             <div class="video-info-grid">
                 <div class="video-icon">
-                    <img class="icon" src="channel-icons/channel-5.jpeg" alt="channel5">
+                    <a href="https://www.youtube.com/c/CSDojo">
+                        <img class="icon" src="channel-icons/channel-5.jpeg" alt="channel5">
+                    </a>
+                    <div class="channel-tooltip">
+                        <img class="icon-tooltip" src="channel-icons/channel-5.jpeg" alt="channel5">
+                        <div>
+                            <p class="channel-tool-name"><strong>CS Dojo</strong></p>
+                            <p class="channel-subs">1,92M subscribers</p>
+                        </div>
+                    </div>
                 </div>
                 <div class="video-texts">
                     <div class="title-name">
-                        <p class="video-title">
-                            Kadane's Algorithm to Maximum Sum Subarray Problem</p>
+                        <a class="video-title" href="https://www.youtube.com/watch?v=86CQq3pKSUw">
+                            Kadane's Algorithm to Maximum Sum Subarray Problem</a>
                         </p>
                     </div>
                     <div class="channel-name">
@@ -192,16 +246,28 @@
         </div>
             <div class="video-preview">
                 <div class="video-img">
-                    <img class="thumbnail" src="thumbnails/thumbnail-6.webp" alt="thumbnail-6">
+                    <a href="https://www.youtube.com/watch?v=yXWw0_UfSFg">
+                        <img class="thumbnail" src="thumbnails/thumbnail-6.webp" alt="thumbnail-6">
+                    </a>
+                    <div class="video-time">19:59</div>
                 </div>
                 <div class="video-info-grid">
                     <div class="video-icon">
-                        <img class="icon" src="channel-icons/channel-6.jpeg" alt="channel6">
+                        <a href="https://www.youtube.com/channel/UCX6OQ3DkcsbYNE6H8uQQuVA">
+                            <img class="icon" src="channel-icons/channel-6.jpeg" alt="channel6">
+                        </a>
+                        <div class="channel-tooltip">
+                            <img class="icon-tooltip" src="channel-icons/channel-6.jpeg" alt="channel6">
+                            <div>
+                                <p class="channel-tool-name"><strong>MrBeast</strong></p>
+                                <p class="channel-subs">235M subscribers</p>
+                            </div>
+                        </div>
                     </div>
                     <div class="video-texts">
                         <div class="title-name">
-                            <p class="video-title">    
-                                Anything You Can Fit In The Circle I&apos;ll Pay For</p>
+                            <a class="video-title" href="https://www.youtube.com/watch?v=yXWw0_UfSFg">    
+                                Anything You Can Fit In The Circle I&apos;ll Pay For</a>
                         </div>
                         <div class="channel-name">
                             <p class="channel">
@@ -218,16 +284,28 @@
             </div>
             <div class="video-preview">
                 <div class="video-img">
-                    <img class="thumbnail" src="thumbnails/thumbnail-7.webp" alt="thumbnail-7">
+                    <a href="https://www.youtube.com/watch?v=fNVa1qMbF9Y">
+                        <img class="thumbnail" src="thumbnails/thumbnail-7.webp" alt="thumbnail-7">
+                    </a>
+                    <div class="video-time">10:13</div>
                 </div>
                 <div class="video-info-grid">
                     <div class="video-icon">
-                        <img class="icon" src="channel-icons/channel-7.jpeg" alt="channel7">
+                        <a href="https://www.youtube.com/channel/UCP5tjEmvPItGyLhmjdwP7Ww">
+                            <img class="icon" src="channel-icons/channel-7.jpeg" alt="channel7">
+                        </a>
+                        <div class="channel-tooltip">
+                            <img class="icon-tooltip" src="channel-icons/channel-7.jpeg" alt="channel7">
+                            <div>
+                                <p class="channel-tool-name"><strong>RealLifeLore</strong></p>
+                                <p class="channel-subs">7,3M subscribers</p>
+                            </div>
+                        </div>  
                     </div>
                     <div class="video-texts">
                         <div class="title-name">
-                            <p class="video-title">   
-                                Why Planes Don't Fly Over Tibet </p>
+                            <a class="video-title" href="https://www.youtube.com/watch?v=fNVa1qMbF9Y">   
+                                Why Planes Don't Fly Over Tibet </a>
                             </p>
                         </div>
                         <div class="channel-name">
@@ -245,16 +323,28 @@
             </div>
                 <div class="video-preview">
                     <div class="video-img">
-                        <img class="thumbnail" src="thumbnails/thumbnail-8.webp" alt="thumbnail-8">
+                        <a href="https://www.youtube.com/watch?v=lFm4EM1juls">
+                            <img class="thumbnail" src="thumbnails/thumbnail-8.webp" alt="thumbnail-8">
+                        </a>
+                        <div class="video-time">7:12</div>
                     </div>
                     <div class="video-info-grid">
                         <div class="video-icon">
-                            <img class="icon" src="channel-icons/channel-8.jpeg" alt="channel8">
+                            <a href="https://www.youtube.com/channel/UCHAK6CyegY22Zj2GWrcaIxg">
+                                <img class="icon" src="channel-icons/channel-8.jpeg" alt="channel8">
+                            </a>
+                            <div class="channel-tooltip">
+                                <img class="icon-tooltip" src="channel-icons/channel-8.jpeg" alt="channel8">
+                                <div>
+                                    <p class="channel-tool-name"><strong>Tech Vision</strong></p>
+                                    <p class="channel-subs">826k subscribers</p>
+                                </div>
+                            </div>    
                         </div>
                         <div class="video-texts">
                             <div class="title-name">
-                                <p class="video-title">                                      
-                                    Inside The World's Biggest Passenger Plane</p>
+                                <a class="video-title" href="https://www.youtube.com/watch?v=lFm4EM1juls">                                      
+                                    Inside The World's Biggest Passenger Plane</a>
                             </div>
                             <div class="channel-name">
                                 <p class="channel">

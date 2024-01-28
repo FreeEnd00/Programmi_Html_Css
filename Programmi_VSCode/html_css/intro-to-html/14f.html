@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body{
+            margin: 0;
+            height: 3000px;
+        }
+        p{
+            font-family: Arial;
+            margin: 0;
+        }
+        .icon-sidebar{
+            position: fixed;
+            top: 0; bottom: 0; left: 0;
+            width: 60px;
+            background-color: rgb(36, 33, 33);
+            padding-left: 10px;
+            padding-top: 20px;
+        }
+        .icon{
+            display: block;
+            width: 50px;
+            height: 50px;
+            border-radius: 40px;
+            margin-bottom: 5px;
+        }
+        .tag-sidebar{
+            position: fixed;
+            left: 70px; top: 0; bottom: 0;
+            background-color: rgb(68, 65, 65);
+            width: 250px;
+            padding-left: 15px;
+        }
+        .top-tag-sidebar{
+            display: flex;
+            justify-content: space-between;
+        }
+        .plus{
+            font-size: 30px;
+            margin-right: 20px;
+            margin-top: 12px;
+            margin-bottom: 0;
+            color: gray;
+        }
+        .tag-sidebar-content {
+            display: flex;
+            margin-top: 14px;
+            color: gray;
+        }
+        .info{
+            color: white;
+            margin-top: 20px;
+        }
+        .text{
+            margin-left: 6px;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 14f.</title>
+</head>
+<body>
+    <div class="icon-sidebar">
+        <img class="icon" src="images/bulldog.jpg" alt="">
+        <img class="icon" src="images/tiger.jpg" alt="">
+        <img class="icon" src="images/moon.jpg" alt="">
+    </div>
+    <div class="tag-sidebar">
+        <div class="top-tag-sidebar">
+            <p class="info"><strong>INFO</strong></p>
+            <p class="plus">&plus;</p>
+        </div>
+        <div class="tag-sidebar-content">
+            <p class="hashtag">&num;</p>
+            <p class="text">new-videos</p>
+        </div>
+        <div class="tag-sidebar-content">
+            <p class="hashtag">&num;</p>
+            <p class="text">updates</p>
+        </div>
+        <div class="tag-sidebar-content">
+            <p class="hashtag">&num;</p>
+            <p class="text">faq</p>
+        </div>
+    </div>
+</body>
+</html>
